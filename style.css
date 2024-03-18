@@ -9,9 +9,10 @@ header {
 main {
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
 }
 
-section {
+#section-photo {
     font-size: 0.8rem;
     margin: 20vh 15vw 0 10vw;
     display: flex;
@@ -20,7 +21,7 @@ section {
     text-align: center;
 }
 
-section img {
+#photo {
     height:100px;
     width: 75px;
     border-radius: 38px;
@@ -29,7 +30,7 @@ section img {
 .summary {
     display: grid;
     grid-template: repeat(3, 10vh) / repeat(3, 18vw);
-    
+    place-items: center;
 }
 
 .summary h2 {
